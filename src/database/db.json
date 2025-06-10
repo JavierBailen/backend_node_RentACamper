@@ -1,0 +1,127 @@
+{
+  "reservas": [
+    {
+      "id": 1,
+      "cliente_id": 102,
+      "furgoneta_id": 1,
+      "fecha_inicio": "2025-04-15",
+      "fecha_fin": "2025-04-18",
+      "estado": "confirmada",
+      "precio_total": 240
+    },
+    {
+      "cliente_id": "102",
+      "furgoneta_id": "4",
+      "fecha_inicio": "2025-04-15",
+      "fecha_fin": "2025-04-18",
+      "estado": "pendiente"
+    },
+    {
+      "cliente_id": "102",
+      "furgoneta_id": "4",
+      "fecha_inicio": "2025-04-15",
+      "fecha_fin": "2025-04-18",
+      "estado": "si",
+      "precioTotal": 285
+    },
+    {
+      "id": "4b7f47b7-e113-4f06-87b4-77a74afaca2d",
+      "cliente_id": "102",
+      "furgoneta_id": "4",
+      "fecha_inicio": "2025-04-19",
+      "fecha_fin": "2025-04-22",
+      "estado": "ole ole",
+      "precioTotal": 285
+    }
+  ],
+  "usuarios": [
+    {
+      "id": 101,
+      "nombre": "Juan Pérez",
+      "email": "juanperez@example.com",
+      "rol": "propietario",
+      "contraseña": "hashedpassword123"
+    },
+    {
+      "id": 102,
+      "nombre": "Ana Gómez",
+      "email": "anagomez@example.com",
+      "rol": "cliente",
+      "contraseña": "hashedpassword456"
+    }
+  ],
+  "furgonetas": [
+    {
+      "id": 1,
+      "user_id": 101,
+      "modelo": "Volkswagen California",
+      "precio": 80,
+      "localizacion": {
+        "id": 1,
+        "latitud": 40.4168,
+        "longitud": -3.7038,
+        "direccion": "Barcelona, España"
+      },
+      "descripcion": "Furgoneta camper totalmente equipada con cocina y cama.",
+      "fotos": [
+        "url_foto_1",
+        "url_foto_2"
+      ]
+    },
+    {
+      "id": 2,
+      "user_id": 102,
+      "modelo": "Mercedes Marco Polo",
+      "precio": 90,
+      "localizacion": {
+        "id": 2,
+        "latitud": 41.3874,
+        "longitud": 2.1686,
+        "direccion": "Barcelona, España"
+      },
+      "descripcion": "Espaciosa y con todas las comodidades para viajar.",
+      "fotos": [
+        "url_foto_3",
+        "url_foto_4"
+      ]
+    },
+    {
+      "id": 4,
+      "user_id": 308,
+      "modelo": "Ford Transit Custom Nugget",
+      "precio": 95,
+      "localizacion": {
+        "id": 4,
+        "latitud": 39.4699,
+        "longitud": -0.3763,
+        "direccion": "Valencia, España"
+      },
+      "descripcion": "Compacta pero con todo lo necesario para un viaje cómodo.",
+      "fotos": [
+        "url_foto_7",
+        "url_foto_8"
+      ],
+      "createdAt": "4/1/2025, 5:02:28 PM",
+      "updatedAt": "4/1/2025"
+    },
+    {
+      "id": "6ce9f2da-3d84-424b-bb58-96ae510323f8",
+      "user_id": 412,
+      "modelo": "Renault Trafic Camper",
+      "precio": 80,
+      "localizacion": {
+        "id": 5,
+        "latitud": 37.3891,
+        "longitud": -5.9845,
+        "direccion": "Sevilla, España"
+      },
+      "descripcion": "Ideal para viajes en pareja o con amigos, equipada con todo lo necesario.",
+      "fotos": [
+        "url_foto_9",
+        "url_foto_10"
+      ],
+      "createdAt": "4/1/2025, 5:04:43 PM",
+      "updatedAt": "4/1/2025"
+    }
+  ]
+}
